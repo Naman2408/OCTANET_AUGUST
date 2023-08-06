@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    
+}
+.top{
+    height: 60%;
+    width: 100%;
+   
+    background-image: url(images/imag1.jpeg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: 30% 20%;
+    animation: slider 20s infinite linear;
+
+   
+}
+.overlay{
+    position: relative;
+    width: 100%;
+    height: 100;
+    background-color: rgba(0, 0, 0, 0.011);
+}
+.text{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+    padding:  0 10vw;
+    width: 100%;
+    background-color: rgba(137, 43, 226, 0);
+}
+.text h1{
+    font-size: 5vw;
+    color: aliceblue;
+}
+
+.textright{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+}
+.textright p{
+    font-size: 15px;
+    color: aliceblue;
+}
+
+
+.bottom{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    background-color: brown;
+    
+   
+}
+.b1{
+    width: 25%;
+    height: 100%;
+    background-image: url(images/image4.jpeg);
+    background-size: 100% 100%;
+    color: aliceblue;
+    text-align: center;
+}
+.b2{
+    width: 25%;
+    height: 100%;
+    background-image: url(images/image5.jpeg);
+    background-size: 100% 100%;
+    color: aliceblue;
+    text-align: right;
+}
+.b3{
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+    box-shadow: 2px white;
+
+}
+.b3top{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(9, 9, 10);
+    color: aliceblue;
+    size: 5px;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.b3top a{
+    color: aliceblue;
+}
+.b3bottom{
+    width: 100%;
+    height: 50%;
+    background-image: url(images/images7.jpeg);
+    background-size: 100% 100%;
+    
+}
+.b4{
+    width: 30%;
+    height: 100%;
+    background-image: url(images/imagev.JPEG);
+    background-size: 100% 100%;
+}
+
+
+
+
+@keyframes slider{
+    0%{background-image: url(images/imag1.jpeg); background-size: 100% 100%; }
+    35%{background-image: url(images/image2.webp);background-size: 100% 100%; }
+    75%{background-image: url(images/image3.jpeg);background-size: 100% 100%; }
+}
