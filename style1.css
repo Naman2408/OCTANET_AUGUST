@@ -17,7 +17,7 @@ html,body{
     height: 60%;
     width: 100%;
    
-    background-image: url(images/imag1.jpeg);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/578/672/52/watch-luxury-watches-rolex-wallpaper-preview.jpg);
     background-size: cover;
     background-size: 100% 100%;
     background-position: 30% 20%;
@@ -70,7 +70,7 @@ html,body{
 .b1{
     width: 25%;
     height: 100%;
-    background-image: url(images/image4.jpeg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStQpG7z7YUTWqi-Iso0ts-k5vMq55XzHH4lg&usqp=CAU);
     background-size: 100% 100%;
     color: aliceblue;
     text-align: center;
@@ -78,7 +78,7 @@ html,body{
 .b2{
     width: 25%;
     height: 100%;
-    background-image: url(images/image5.jpeg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcW6Bvs2j5PmtSOadxi2GEiHUm33QQWPB3Fg&usqp=CAU);
     background-size: 100% 100%;
     color: aliceblue;
     text-align: right;
@@ -106,14 +106,14 @@ html,body{
 .b3bottom{
     width: 100%;
     height: 50%;
-    background-image: url(images/images7.jpeg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPbpn8kzlZVNUujJLM4dPhZ_L3ha9NOefrF15eP7aV438agP38uHPmfMhCGzGRImtm0A4&usqp=CAU);
     background-size: 100% 100%;
     
 }
 .b4{
     width: 30%;
     height: 100%;
-    background-image: url(images/imagev.JPEG);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE8sddEZ2rI9wdCG2dk23L9qkikThjdeTd4A&usqp=CAU);
     background-size: 100% 100%;
 }
 
@@ -121,7 +121,7 @@ html,body{
 
 
 @keyframes slider{
-    0%{background-image: url(images/imag1.jpeg); background-size: 100% 100%; }
-    35%{background-image: url(images/image2.webp);background-size: 100% 100%; }
-    75%{background-image: url(images/image3.jpeg);background-size: 100% 100%; }
+    0%{background-image: url(https://c4.wallpaperflare.com/wallpaper/578/672/52/watch-luxury-watches-rolex-wallpaper-preview.jpg); background-size: 100% 100%; }
+    35%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTbdkQc0PD12x9FtQC8ehGYXg2Ylx9NXyUIg&usqp=CAU);background-size: 100% 100%; }
+    75%{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUVjiagmOf32ifoLAfc7rmu-063cJBCSCH8w&usqp=CAU);background-size: 100% 100%; }
 }
